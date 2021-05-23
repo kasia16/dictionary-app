@@ -1,21 +1,22 @@
 import React, { useState} from "react";
 import axios from "axios";
-import "./Dictionary";
+import Results from "./Results";
+import "./Dictionary.css";
 
 export default function Dictionary(){
     let [keyword, setKeyword] = useState("");
+    let [results, setResults] =useState(null);
 
     function handleResponse(response){
     console.log(response.data[0])
+    setResults(response.data[0])
     }
 
     function search(event){
         event.preventDefault()
         
-   
-  const apiKey = "029a3deb-2f71-4c80-b2d4-b64e7c6a3573";
-  let apiUrl = `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/${keyword}?key=${apiKey}`;
-  console.log(apiUrl);
+   //documentation here: https://dictionaryapi.dev/e
+  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/fr/${keyword}`;
   axios.get(apiUrl).then(handleResponse);
     }
 
@@ -29,6 +30,7 @@ return (
             autoFocus={true}
             onChange={updateKeyword} />
         </form>
+        <Results results={results}/>
         </div>
 );
 }
