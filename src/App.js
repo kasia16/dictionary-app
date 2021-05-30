@@ -14,8 +14,8 @@ function App() {
         <Dictionary defaultKeyword="code"/>
       </main>
       <footer className="text-center">
-        <small>Coded and designed by Kasia Krasucka: <a href="https://github.com/kasia16/Vanilla-weather-app" target="_blank">Open-source code</a></small>
-        
+        Coded and designed by <a href="https://www.linkedin.com/in/krasucka/">Kasia Krasucka</a>: <a href="https://github.com/kasia16/dictionary-app" target="_blank">Open-source code</a><br />
+      Drawing sourced from <a href="https://undraw.co/">unDraw</a>
       </footer>
     </div></div>
   );
