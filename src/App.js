@@ -14,8 +14,8 @@ function App() {
         <Dictionary defaultKeyword="code"/>
       </main>
       <footer className="text-center">
-        Coded and designed by <a href="https://www.linkedin.com/in/krasucka/">Kasia Krasucka</a>: <a href="https://github.com/kasia16/dictionary-app" target="_blank">Open-source code</a><br />
-      Drawing sourced from <a href="https://undraw.co/">unDraw</a>
+        Coded and designed by <a href="https://www.linkedin.com/in/krasucka/">Kasia Krasucka</a>: <a href="https://github.com/kasia16/dictionary-app" rel="noreferrer noopener" target="_blank" >Open-source code</a><br />
+      Drawing sourced from <a href="https://undraw.co/" rel="noreferrer noopener" target="_blank" >unDraw</a>
       </footer>
     </div></div>
   );
