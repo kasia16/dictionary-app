@@ -1,0 +1,13 @@
+.Meaning h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Meaning .definition {
+  font-size: 14px;
+  font-weight: bold;
+}
+.Meaning .example {
+  font-size: 14px;
+  color: darkgoldenrod;
+  font-style: italic;
+}
