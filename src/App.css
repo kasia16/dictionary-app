@@ -6,7 +6,7 @@ a {
 }
 .App {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 40px auto;
   font-family: "Quicksand";
 }
 .App header {
